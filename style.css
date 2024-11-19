@@ -1,8 +1,15 @@
 .app{
     width:50%;
     margin:0 auto;
-    border:1px solid blue;
+    background-color: rgb(201, 231, 231);
+    height:300px;
+    padding:30px;
 }
-h1{
+h1, h2, p{
     text-align:center;
 }
+.inputs{
+    width:50%;
+    margin:0 250px;
+}
+

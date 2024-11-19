@@ -11,7 +11,7 @@ function fetchData(city){
    .then(response=>response.json())
    .then(data=> {
       locationElement.textContent = data.address;
-      temperatureElement.textContent =  data.days[0].temp+'C';
+      temperatureElement.textContent =  data.days[0].temp+' C';
       descriptionElement.textContent = data.days[0].description;
       console.log(data.days[0].description);
    }).catch(error => {
